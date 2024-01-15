@@ -1,0 +1,8 @@
+services:
+  tanslit_bot:
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: tranlit_bot
+    environment:
+      BOT_TOKEN: $BOT_TOKEN 
